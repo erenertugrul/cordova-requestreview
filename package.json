@@ -1,11 +1,23 @@
 {
-  "name": "cordova-requestReview",
+  "name": "cordova-requestreview",
   "version": "1.0.0",
-  "cordova": {
-    "id": "cordova-requestReview",
-    "platforms": [
-      "ios",
-    ]
+  "description": "ios requestreview plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "description": "ios app reviews"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erenertugrul/cordova-requestreview.git"
+  },
+  "keywords": [
+    "cordova",
+    "requestreview"
+  ],
+  "author": "eren ertugrul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erenertugrul/cordova-requestreview/issues"
+  },
+  "homepage": "https://github.com/erenertugrul/cordova-requestreview#readme"
 }
