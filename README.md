@@ -1,6 +1,7 @@
 # cordova-requestreview
 cordova ios requestreview plugin
 
+![requestreview ios](https://i.imgur.com/3NMRuTN.png)
 
 #### Basit kullanım
 
