@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="eren-requestreview" version="1.0.0">
+    <name>Cordova RequestReview</name>
+    <description></description>
+    <license>MIT</license>
+
+
+    <!-- ios -->
+    <platform name="ios">
+        <js-module src="www/RequestReview.js" name="istek">
+            <runs/>
+            <clobbers target="cordova.plugins.RequestReview" />
+        </js-module>
+        <config-file target="config.xml" parent="/*">
+            <feature name="RequestReview">
+                <param name="ios-package" value="RequestReview" onload="true" />
+            </feature>
+        </config-file>
+        <dependency id="cordova-plugin-add-swift-support" version="1.7.2"/>
+        <preference name="UseSwiftLanguageVersion" value="4" />
+        <source-file src="src/ios/RequestReview.swift" />
+    </platform>
+</plugin>
