@@ -6,11 +6,11 @@ cordova ios requestreview plugin
 
 * oylama penceresi açar
 ```javascript
-cordova.plugin.requestreview.postreview();
+cordova.plugins.RequestReview.postreview();
 ```
 * görüş yazmak için app linkini açar
 ```javascript
-cordova.plugin.requestreview.postwrite("app_id");
+cordova.plugins.RequestReview.postwrite("app_id");
 ```
 
 #### callback'lı kullanım şekli
@@ -25,7 +25,7 @@ var callback = function (hata, sonuc){
     }
 }
 
-cordova.plugin.requestreview.postreview(callback);
+cordova.plugins.RequestReview.postreview(callback);
 
-cordova.plugin.requestreview.postwrite("app_id",callback);
+cordova.plugins.RequestReview.postwrite("app_id",callback);
 ```
