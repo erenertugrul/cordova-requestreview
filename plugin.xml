@@ -8,7 +8,7 @@
 
     <!-- ios -->
     <platform name="ios">
-        <js-module src="www/RequestReview.js" name="istek">
+        <js-module src="www/RequestReview.js" name="RequestReview">
             <runs/>
             <clobbers target="cordova.plugins.RequestReview" />
         </js-module>
