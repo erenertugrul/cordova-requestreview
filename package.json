@@ -1,0 +1,11 @@
+{
+  "name": "cordova-requestReview",
+  "version": "1.0.0",
+  "cordova": {
+    "id": "cordova-requestReview",
+    "platforms": [
+      "ios",
+    ]
+  },
+  "description": "ios app reviews"
+}
