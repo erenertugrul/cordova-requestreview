@@ -8,7 +8,7 @@ cordova ios requestreview plugin
 ```javascript
 cordova.plugin.requestreview.postreview();
 ```
-*görüş yazmak için app linkini açar
+* görüş yazmak için app linkini açar
 ```javascript
 cordova.plugin.requestreview.postwrite("app_id");
 ```
