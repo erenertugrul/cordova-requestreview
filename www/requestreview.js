@@ -8,7 +8,7 @@ exports.postreview = function(sonuc) {
    }
    function hatali (gelen)
    {
-       sonuc(null,gelen);
+       sonuc(gelen,null);
    }
     exec(basarili, hatali, "RequestReview", "requestReview");
 };

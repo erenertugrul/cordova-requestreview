@@ -17,12 +17,12 @@ cordova.plugins.RequestReview.postwrite("app_id");
 #### callback'lı kullanım şekli
 
 ```javascript
-var callback = function (hata, sonuc){
-    if (hata){
-        console.log(hata)
+var callback = function (error, result){
+    if (error){
+        console.log(error)
     }
     else{
-        console.log(sonuc)
+        console.log(result)
     }
 }
 
