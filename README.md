@@ -3,18 +3,18 @@ cordova ios requestreview plugin
 
 ![requestreview ios](https://i.imgur.com/3NMRuTN.png)
 
-#### Basit kullanım
+#### simple use
 
-* oylama penceresi açar
+* ask the user to rate
 ```javascript
 cordova.plugins.RequestReview.postreview();
 ```
-* görüş yazmak için app linkini açar
+* open a page on which users can write a review in the App Store
 ```javascript
 cordova.plugins.RequestReview.postwrite("app_id");
 ```
 
-#### callback'lı kullanım şekli
+#### use with callback
 
 ```javascript
 var callback = function (error, result){
