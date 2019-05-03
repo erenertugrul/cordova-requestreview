@@ -30,3 +30,6 @@ cordova.plugins.RequestReview.postreview(callback);
 
 cordova.plugins.RequestReview.postwrite("app_id",callback);
 ```
+
+#### for donate
+[![Donate](https://i.imgur.com/pjkMdHU.png)](https://buymeacoff.ee/eren)
