@@ -17,7 +17,7 @@
                 <param name="ios-package" value="RequestReview" onload="true" />
             </feature>
         </config-file>
-        <dependency id="cordova-plugin-add-swift-support" version="1.7.2"/>
+        <dependency id="cordova-plugin-add-swift-support"/>
         <source-file src="src/ios/RequestReview.swift" />
     </platform>
 </plugin>
