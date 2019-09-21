@@ -3,6 +3,11 @@ cordova ios requestreview plugin
 
 ![requestreview ios](https://i.imgur.com/3NMRuTN.png)
 
+#### install
+```
+npm i cordova-eren-requestreview
+```
+
 #### simple use
 
 * ask the user to rate
